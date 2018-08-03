@@ -1,0 +1,60 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Courier New", Times, serif;
+}
+.fp-controlArrow.fp-prev, .fp-controlArrow-fp-next{
+display: none;
+}
+
+.fa-instagram {
+    background-image: -webkit-linear-gradient(bottom left, #FFD521, #EB001E, #B900B4); /* For Chrome and Safari */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.fa-linkedin{
+color:  #0077B5;
+}
+.fa-facebook{
+color:  #3B5998
+}
+
+.fa-github{
+color:  black;
+}
+
+
+.slider .slides li img {
+    width: 31%;
+    border-radius: 50%;
+
+}
+.slider .slides {
+    background-color: white;
+    margin: 0;
+    height: 400px;
+}
+
+.responsive20{
+  width:20%;
+}
+.responsive50{
+  width:50%;
+}
+.responsive70{
+  width:70%;
+}
+
+nav, .brand-logo{
+  background-color: white;
+  color: black
+}
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 30px;
+    line-height: 30px;
+}
+
+.z-depth-1, nav {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0px rgba(0,0,0,0);
+}
