@@ -1,60 +1,92 @@
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Courier New", Times, serif;
+  font-family: "Courier New", Times, serif;
 }
-.fp-controlArrow.fp-prev, .fp-controlArrow-fp-next{
-display: none;
+
+.fp-controlArrow.fp-prev, .fp-controlArrow-fp-next {
+  display: none;
 }
 
 .fa-instagram {
-    background-image: -webkit-linear-gradient(bottom left, #FFD521, #EB001E, #B900B4); /* For Chrome and Safari */
-    color:transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
+  background-image: -webkit-linear-gradient(bottom left, #FFD521, #EB001E, #B900B4);
+  /* For Chrome and Safari */
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
-.fa-linkedin{
-color:  #0077B5;
-}
-.fa-facebook{
-color:  #3B5998
+.fa-linkedin {
+  color: #0077B5;
 }
 
-.fa-github{
-color:  black;
+.fa-facebook {
+  color: #3B5998
 }
 
+.fa-github {
+  color: black;
+}
 
 .slider .slides li img {
-    width: 31%;
-    border-radius: 50%;
-
+  width: 31%;
+  border-radius: 50%;
 }
+
 .slider .slides {
-    background-color: white;
-    margin: 0;
-    height: 400px;
+  background-color: white;
+  margin: 0;
+  height: 400px;
 }
 
-.responsive20{
-  width:20%;
-}
-.responsive50{
-  width:50%;
-}
-.responsive70{
-  width:70%;
+.responsive20 {
+  width: 20%;
 }
 
-nav, .brand-logo{
+.responsive50 {
+  width: 50%;
+}
+
+.responsive70 {
+  width: 70%;
+}
+
+nav, .brand-logo {
   background-color: white;
   color: black
 }
 
 nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 30px;
-    line-height: 30px;
+  height: 30px;
+  line-height: 30px;
 }
 
 .z-depth-1, nav {
-    box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0px rgba(0,0,0,0);
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+
+.img-fluid {
+  -webkit-transition: all 0.3s;
+  width: 50%;
+}
+
+.img-fluid:hover {
+    transform: scale(1.5);
+}
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 1000px) {
+  .slider .slides li img {
+    width: 40%;
+    border-radius: 50%;
+  }
+  p.chip {
+    visibility: hidden;
+  }
+
+  .img-fluid {
+    width: 60%;
+  }
 }
